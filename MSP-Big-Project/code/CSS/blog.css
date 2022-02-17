@@ -1,0 +1,87 @@
+.contain1{
+    background-position: center center;
+    background-image: url(../IMG/breadcrum-thumb.png);
+    background-size: cover;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+.contain1 .breadcumb-area {
+    padding: 60px 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 13rem;
+    width: 100rem;
+    text-align: center;
+}
+.contain1 .breadcumb-area .row {
+    color: white;
+}
+.contain1 .breadcumb-area .row .brptbrptsize{
+    padding: 5px;
+}
+.contain2 .article h2{
+    font-size: 15px;
+    color: #017e84;
+    text-align: center;
+    margin: 1rem;
+}
+.contain2 .article h3{
+    font-size: 40px;
+    color: #030925;
+    text-align: center;
+}
+.contain2 .collection{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.contain2 .card{
+   
+    width: 23rem;
+    height: 38rem;
+    margin: 2rem;
+    box-shadow: 0 5px 10px 0 rgb(50 65 141 / 7%);
+}
+.card .content .upper .img{
+    position: relative;
+}
+.card .content .upper .witr_top_category{
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    color: #fff;
+    background: #017e84;
+    position: absolute;
+    top: 28rem;
+    right: 95rem;
+}
+.card .content .lower .description{
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+.card .content .lower .description .d1{
+    margin: 1rem;
+}
+.card .content .lower .description .d2{
+    margin: 1rem;
+}
+.card .content .lower .description .d3{
+    margin: 1rem;
+}
+.card .content .lower .description .button button{
+    margin: 1rem;
+    color: #017e84;
+    font-weight: 600;
+}
+.card .content .lower .description i{
+    color: #017e84;
+}

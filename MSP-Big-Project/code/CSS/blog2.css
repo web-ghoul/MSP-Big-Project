@@ -1,0 +1,291 @@
+.layout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.search {
+    margin-bottom: 30px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    background: #f7f7f7;
+    align-items: center;
+    gap: 20px;
+}
+
+form input {
+    background: #f7f7f7;
+}
+
+form button {
+    background: var(--generalColor);
+    color: var(--white);
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.archives {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+}
+
+.archives .widget-title {
+    margin-top: 0;
+    line-height: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    position: relative;
+    border-bottom: 1px solid #017e84;
+    width: 26%;
+}
+
+.archives ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.archives ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.archives ul li i {
+    font-size: 10;
+    padding-right: 10px;
+}
+
+.widget-data {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+}
+
+.recent-post-item {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.single-widget-item {
+    overflow: hidden;
+}
+
+.recent-post-image {
+    float: left;
+    margin-right: 15px;
+}
+
+.recent-post-text {
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.widget-categories {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+}
+
+.widget-categories h2 {
+    line-height: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    position: relative;
+    border-bottom: 1px solid #017e84;
+    width: 26%;
+}
+
+.widget-categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget-categories ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+}
+
+.widget-categories ul li i {
+    font-size: 10;
+    padding-right: 10px;
+}
+
+.widget-meta {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+}
+
+.widget-meta h2 {
+    line-height: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    position: relative;
+    border-bottom: 1px solid #017e84;
+    width: 26%;
+}
+
+.widget-meta ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget-meta ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+}
+
+.widget-meta ul li i {
+    font-size: 10;
+    padding-right: 10px;
+}
+
+.widget-calendar {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+}
+
+.widget-calendar .wp-calendar-table {
+    overflow: auto;
+    vertical-align: top;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+}
+
+.widget-calendar .wp-calendar-table caption {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 18px;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+    text-indent: initial;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table.wp-calendar-table th {
+    border: 1px solid #e5e5e5;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+table.wp-calendar-table td {
+    border: 1px solid #e5e5e5;
+    padding: 5px 10px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.right .box {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+    vertical-align: top;
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 732px;
+    height: 651px;
+}
+
+.right .box .em-blog-content-area {
+    padding: 20px 15px 0;
+    overflow: hidden;
+}
+
+.poket-blog-meta-left {
+    padding: 0 0 9px;
+}
+
+.poket-blog-meta-left a,
+.poket-blog-meta-left span {
+    color: #888;
+    font-size: 16px;
+    margin-right: 5px;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.blog-content {
+    word-break: break-all;
+}
+
+.blog-content p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.readmore a {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 7px 25px;
+    margin-bottom: 20px;
+    -webkit-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
